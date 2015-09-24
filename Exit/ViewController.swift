@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     @IBAction func exitButtonWasPressed(sender: AnyObject)
     {
+        print("Thank you for using my app.")
         exit(0)
     }
     override func didReceiveMemoryWarning() {
